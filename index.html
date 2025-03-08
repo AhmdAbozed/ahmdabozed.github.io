@@ -7,7 +7,7 @@
   <link href="./public/output.css" rel="stylesheet" />
 </head>
 
-<body class="flex items-center justify-center bg-black flex-col">
+<body class="flex items-center justify-center bg-gray-950 flex-col">
   <main class="flex flex-col sm2 mx-1 max-w-4xl pt-20">
     <section class="flex flex-col">
       <h2 class="sm:text-5xl text-4xl mx-auto font-semibold text-violet-500 [font-size: 3rem]">
@@ -17,7 +17,7 @@
         class="sm:text-3xl sm:w-96 sm:mx-auto text-xl font-semibold min-w-10 mt-2 mr-1 text-center0 text-center font-sans my-4 text-white text-balance">
         Building Web Apps From Front-End to Back-End
       </h2>
-      <p class="max-w-xl text-center text-gray-400 text-sm mx-auto">
+      <p class="max-w-xl text-center text-gray-300 text-sm mx-auto">
         Full-Stack Developer choosing the right tools for your business needs
         at all stages of development
       </p>
@@ -28,35 +28,34 @@
         class="text-2xl font-semibold text-violet-500 absolute left-1/2 -translate-y-11 -translate-x-16 bg-black px-2">
         Experience
       </h2>
-      <article class="w-[48%] mt-2 h-46 rounded-lg bg-gray-900 flex flex-col p-2 mr-2">
+      <article class="w-[48%] opacity-0 experience-card mt-2 h-46 rounded-lg bg-gray-900 flex flex-col p-2 mr-2">
         <img src="./public/res/laravel.svg" alt="" srcset="" class="w-4/12 mx-auto mt-2 mb-2 max-w-16" />
         <h3 class="text-white mx-auto text-xl pt-1">Laravel</h3>
-        <p class="text-gray-400 text-xs sm:text-sm">
+        <p class="text-gray-300 text-xs sm:text-sm">
           Proficient at Laravel, utilizing its many built-in features,
-          powerful ORM and organized structure for rapid development with 100%
-          test coverage
+          powerful ORM and organized structure for rapid development
         </p>
       </article>
-      <article class="w-[48%] mt-2 h-46 rounded-lg bg-gray-900 flex flex-col p-2">
+      <article class="w-[48%] opacity-0 experience-card mt-2 h-46 rounded-lg bg-gray-900 flex flex-col p-2">
         <img src="./public/res/node.svg" alt="" srcset="" class="w-5/12 mx-auto max-w-20" />
-        <h3 class="text-white mx-auto text-xl translate-y-1">NodeJS</h3>
-        <p class="text-gray-400 text-xs sm:text-sm translate-y-1">
-          Experienced with NodeJS, leveraging Express for a more customizable
-          and flexible Back-End, or a more focused one that's bloat-free
+        <h3 class="text-white mx-auto text-xl translate-y-1">Node.js</h3>
+        <p class="text-gray-300 text-xs sm:text-sm translate-y-1">
+          Experienced with Node.js, leveraging Express for a more customizable Back-End, or a more focused one that's
+          bloat-free
         </p>
       </article>
-      <article class="w-[48%] mt-2 h-46 rounded-lg bg-gray-900 flex flex-col p-2 mr-2">
+      <article class="w-[48%] opacity-0 experience-card mt-2 h-46 rounded-lg bg-gray-900 flex flex-col p-2 mr-2">
         <img src="./public/res/vue.svg" alt="" srcset="" class="w-4/12 mx-auto mt-2 mb-2 max-w-16" />
-        <h3 class="text-white mx-auto text-xl">VueJS</h3>
-        <p class="text-gray-400 text-xs sm:text-sm mb-1">
+        <h3 class="text-white mx-auto text-xl">Vue.js</h3>
+        <p class="text-gray-300 text-xs sm:text-sm mb-1">
           Some experience with Vue, taking advantage of its reactivity's
-          simplicity and ease of access for a more stable Front-End
+          simplicity and ease for a more stable Front-End
         </p>
       </article>
-      <article class="w-[48%] mt-2 h-46 rounded-lg bg-gray-900 flex flex-col p-2">
+      <article class="w-[48%] opacity-0 experience-card mt-2 h-46 rounded-lg bg-gray-900 flex flex-col p-2">
         <img src="./public/res/react.svg" alt="" srcset="" class="w-4/12 mx-auto mt-2 mb-2 max-w-16" />
         <h3 class="text-white mx-auto text-xl">React</h3>
-        <p class="text-gray-400 text-xs sm:text-sm mb-1">
+        <p class="text-gray-300 text-xs sm:text-sm mb-1">
           Experienced with React, using its Component-based architecture and
           hooks for building more complex UIs with high performance
         </p>
@@ -69,33 +68,129 @@
       </h2>
     </section>
     <section>
-      <div class="font-semibold text-3xl text-violet-500 border-b-2 border-gray-900 p-1 pl-2">
-        1. Form-Builder
+      <div class="font-semibold text-3xl text-violet-500 p-1 pl-2 fade-in-element flex">
+        
+        <div>
+          1. E-Store
+        </div>
+
+        <div class="ml-auto text-2xl">
+          <a class="underline" href="https://connectstore.vercel.app/">Live</a>
+          <a class="underline ml-2" href="https://github.com/AhmdAbozed/connect-store" >Github</a>
+        </div>
       </div>
 
-      <div class="shadow-xl mb-10 flex flex-col sm:flex-row justify-center h-auto sm:h-[28rem]">
-        <div class="flex justify-center flex-col sm:w-8/12 bg-gray-900">
+      <div
+        class="shadow-xl mb-14 rounded overflow-hidden flex flex-col sm:flex-row justify-center h-auto sm:h-[28rem] fade-in-element">
+        <div id="proj-4" class="flex justify-center flex-col sm:w-8/12 bg-gray-900">
           <div
             class="flex overflow-x-hidden scroll-smooth snap-x w-[95vw] sm:w-auto max-w-[42rem] self-center pt-1 scrollable h-80 sm:h-[28rem]"
-            id="proj-1">
-            <div class="big-img transition-opacity duration-400 h-full min-w-full big-active1" id="b01">
-              <img src="./public/res/form1.png" class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            >
+            <div class="big-img transition-opacity duration-400 h-full min-w-full big-active" id="b04">
+              <img src="./public/res/store1.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
             </div>
-            <div class="big-img transition-opacity duration-400 h-full min-w-full opacity-50" id="b11">
-              <img src="./public/res/form2.png" class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            <div class="big-img transition-opacity duration-400 h-full min-w-full" id="b14">
+              <img src="./public/res/store2.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
             </div>
-            <div class="big-img transition-opacity duration-400 h-full min-w-full opacity-50" id="b21">
-              <img src="./public/res/form3.png" class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            <div class="big-img transition-opacity duration-400 h-full min-w-full" id="b24">
+              <img src="./public/res/store3.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
             </div>
-            <div class="big-img transition-opacity duration-400 h-full min-w-full opacity-50" id="b31">
-              <img src="./public/res/form4.png" class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            <div class="big-img transition-opacity duration-400 h-full min-w-full" id="b34">
+              <img src="./public/res/store4.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            </div>
+          </div>
+
+          <div class="content-between grid gap-1 grid-cols-4 grid-rows-1 p-2 bg-gray-900 h-20 sm:h-28">
+            <div class="h-full flex">
+              <img src="./public/res/store1.png" id="04"
+                class="h-full m-auto object-contain small-img transition-opacity duration-400 shadow-xl -translate-y-0 cursor-pointer small-active" />
+            </div>
+            <div class="h-full flex">
+              <img src="./public/res/store2.png" id="14"
+                class="h-full m-auto object-contain small-img transition-opacity duration-400 shadow-xl -translate-y-0 cursor-pointer opacity-50" />
+            </div>
+            <div class="h-full flex">
+              <img src="./public/res/store3.png" id="24"
+                class="h-full m-auto object-contain small-img transition-opacity duration-400 shadow-xl -translate-y-0 cursor-pointer opacity-50" />
+            </div>
+            <div class="h-full flex">
+              <img src="./public/res/store4.png" id="34"
+                class="h-full m-auto object-contain small-img transition-opacity duration-400 shadow-xl -translate-y-0 cursor-pointer opacity-50" />
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-900 flex flex-col w-full sm:w-4/12">
+          <div class="font-semibold text-lg text-gray-100 border-b-2 border-gray-900 p-1 pl-2">
+            E-Store
+          </div>
+
+          <div class="p-1 pl-2 text-sm text-gray-300 flex flex-col h-full">
+            <div class="mb-auto">
+              A E-store where customers can browse and order products.
+              <br class="mb-1" />
+              Approved trader accounts can order in bulk in wholesale prices
+              <br class="mb-1" />
+              Includes a security camera system builder for bundling compatible parts in an order<br class="mb-1" />
+              Categories have dynamic filtering populated by product specifications. <br />
+            </div>
+            <div class="text-xl font-semibold text-gray-100 mt-3">Tech-Stack</div>
+            <div class="flex border-t-2 border-gray-700 py-1">
+              Front-End:
+              <div class="ml-auto mr-2 text-gray-200">Blade</div>
+            </div>
+            <div class="flex border-t-2 border-gray-700 py-1 mb-3">
+              Back-End:
+              <div class="ml-auto mr-2 text-gray-200">Laravel</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="font-semibold text-3xl text-violet-500 p-1 pl-2 fade-in-element flex">
+        
+        <div>
+          2. Form-Builder
+        </div>
+
+        <div class="ml-auto text-2xl">
+          <a class="underline" href="https://formbuilder-alpha.vercel.app/">Live</a>
+          <a class="underline ml-2" href="https://github.com/AhmdAbozed/form-builder" >Github</a>
+        </div>
+      </div>
+
+      <div
+        class="shadow-xl mb-14 rounded overflow-hidden flex flex-col sm:flex-row justify-center h-auto sm:h-[28rem] fade-in-element">
+        <div id="proj-1" class="flex justify-center flex-col sm:w-8/12 bg-gray-900">
+          <div
+            class="flex overflow-x-hidden scroll-smooth snap-x w-[95vw] sm:w-auto max-w-[42rem] self-center pt-1 scrollable h-80 sm:h-[28rem]"
+            >
+            <div class="big-img transition-opacity duration-400 h-full min-w-full big-active" id="b01">
+              <img src="./public/res/form1.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            </div>
+            <div class="big-img transition-opacity duration-400 h-full min-w-full" id="b11">
+              <img src="./public/res/form2.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            </div>
+            <div class="big-img transition-opacity duration-400 h-full min-w-full" id="b21">
+              <img src="./public/res/form3.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            </div>
+            <div class="big-img transition-opacity duration-400 h-full min-w-full" id="b31">
+              <img src="./public/res/form4.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
             </div>
           </div>
 
           <div class="content-between grid gap-1 grid-cols-4 grid-rows-1 p-2 bg-gray-900 h-20 sm:h-28">
             <div class="h-full flex">
               <img src="./public/res/form1.png" id="01"
-                class="h-full m-auto object-contain small-img transition-opacity duration-400 shadow-xl -translate-y-0 cursor-pointer small-active1" />
+                class="h-full m-auto object-contain small-img transition-opacity duration-400 shadow-xl -translate-y-0 cursor-pointer small-active" />
             </div>
             <div class="h-full flex">
               <img src="./public/res/form2.png" id="11"
@@ -116,7 +211,7 @@
             Form-Builder
           </div>
 
-          <div class="p-1 pl-2 text-sm text-gray-400 flex flex-col h-full">
+          <div class="p-1 pl-2 text-sm text-gray-300 flex flex-col h-full">
             <div class="mb-auto">
               A CMS app for building forms using a drag and drop interface,
               forms are then shared using provided url for users to fill.<br class="mb-1" />
@@ -126,44 +221,56 @@
             <div class="text-xl font-semibold text-gray-100 mt-3">Tech-Stack</div>
             <div class="flex border-t-2 border-gray-700 py-1">
               Front-End:
-              <div class="ml-auto mr-2 text-gray-200">NextJS</div>
+              <div class="ml-auto mr-2 text-gray-200">Next.js</div>
             </div>
             <div class="flex border-t-2 border-gray-700 py-1 mb-3">
               Back-End:
-              <div class="ml-auto mr-2 text-gray-200">NodeJS</div>
+              <div class="ml-auto mr-2 text-gray-200">Node.js</div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section>
-      <div class="font-semibold text-3xl text-violet-500 border-b-2 border-gray-900 p-1 pl-2">
-        2. Chat-App
+    <section class="">
+      <div class="font-semibold text-3xl text-violet-500 p-1 pl-2 fade-in-element flex">
+        <div>
+          3. Chat-App
+        
+        </div>
+        <div class="ml-auto text-2xl">
+          <a class="underline" href="https://laravelchatapp.vercel.app/">Live</a>
+          <a class="underline ml-2" href="https://github.com/AhmdAbozed/chat-vue-laravel" >Github</a>
+        </div>
       </div>
 
-      <div class="shadow-xl mb-10 flex flex-col sm:flex-row justify-center h-auto sm:h-[28rem]">
-        <div class="flex justify-center flex-col sm:w-8/12 bg-gray-900">
+      <div
+        class="shadow-xl mb-14 rounded overflow-hidden flex flex-col sm:flex-row justify-center h-auto sm:h-[28rem] fade-in-element">
+        <div id="proj-2" class="flex justify-center flex-col sm:w-8/12 bg-gray-900">
           <div
             class="flex overflow-x-hidden scroll-smooth snap-x w-[95vw] sm:w-auto max-w-[42rem] self-center pt-1 scrollable h-80 sm:h-[28rem] mb-1 "
-            id="proj-2">
-            <div class="big-img transition-opacity duration-400 h-full min-w-full big-active2" id="b02">
-              <img src="./public/res/chat1.png" class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            >
+            <div class="big-img transition-opacity duration-400 h-full min-w-full big-active" id="b02">
+              <img src="./public/res/chat1.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
             </div>
-            <div class="big-img transition-opacity duration-400 h-full min-w-full opacity-50" id="b12">
-              <img src="./public/res/chat2.png" class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            <div class="big-img transition-opacity duration-400 h-full min-w-full" id="b12">
+              <img src="./public/res/chat2.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
             </div>
-            <div class="big-img transition-opacity duration-400 h-full min-w-full opacity-50" id="b22">
-              <img src="./public/res/chat3.png" class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            <div class="big-img transition-opacity duration-400 h-full min-w-full" id="b22">
+              <img src="./public/res/chat3.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
             </div>
-            <div class="big-img transition-opacity duration-400 h-full min-w-full opacity-50" id="b32">
-              <img src="./public/res/chat4.png" class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            <div class="big-img transition-opacity duration-400 h-full min-w-full" id="b32">
+              <img src="./public/res/chat4.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
             </div>
           </div>
 
           <div class="content-between grid gap-1 grid-cols-4 grid-rows-1 p-2 bg-gray-900 h-20 sm:h-28">
             <div class="h-full flex">
               <img src="./public/res/chat1.png" id="02"
-                class="h-full m-auto object-contain small-img transition-opacity duration-400 shadow-xl -translate-y-0 cursor-pointer small-active2" />
+                class="h-full m-auto object-contain small-img transition-opacity duration-400 shadow-xl -translate-y-0 cursor-pointer small-active" />
             </div>
             <div class="h-full flex">
               <img src="./public/res/chat2.png" id="12"
@@ -184,56 +291,68 @@
             Chat-App
           </div>
 
-          <div class="p-1 pl-2 text-sm text-gray-400 flex flex-col h-full">
+          <div class="p-1 pl-2 text-sm text-gray-300 flex flex-col h-full">
             <div class="mb-auto">
-              An expansive Chat App with features including file uploads, private chat groups, and a subscription system for upgrading account.  
+              An expansive Chat App with features including file uploads, private chat groups, and a subscription system
+              for upgrading account.
               <br class="mb-1" />
-              File uploads powered by Backblaze CDN.<br class="mb-1" />
+              File uploads powered by Backblaze cloud storage.<br class="mb-1" />
               Websocket services provided by Pusher.<br class="mb-1" />
               Subscription System powered by 2Checkout Payment Gateway . <br />
             </div>
             <div class="text-xl font-semibold text-gray-100 mt-3">Tech-Stack</div>
             <div class="flex border-t-2 border-gray-700 py-1">
               Front-End:
-              <div class="ml-auto mr-2 text-gray-200">NextJS</div>
+              <div class="ml-auto mr-2 text-gray-200">Vue.js</div>
             </div>
             <div class="flex border-t-2 border-gray-700 py-1 mb-3">
               Back-End:
-              <div class="ml-auto mr-2 text-gray-200">NodeJS</div>
+              <div class="ml-auto mr-2 text-gray-200">Laravel</div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    
+
     <section>
-      <div class="font-semibold text-3xl text-violet-500 border-b-2 border-gray-900 p-1 pl-2">
-        3. Reddit Clone
+      <div class="font-semibold text-3xl text-violet-500 p-1 pl-2 fade-in-element flex">
+        <div>
+          4. Reddit Clone
+        
+        </div>
+        <div class="ml-auto text-2xl">
+          <a class="underline ml-2" href="https://github.com/AhmdAbozed/Reddit-mockup-React-Node-" >Github</a>
+        </div>
       </div>
 
-      <div class="shadow-xl mb-10 flex flex-col sm:flex-row justify-center h-auto sm:h-[28rem]">
-        <div class="flex justify-center flex-col sm:w-8/12 bg-gray-900">
+      <div
+        class="shadow-xl mb-14 rounded overflow-hidden flex flex-col sm:flex-row justify-center h-auto sm:h-[28rem] fade-in-element">
+        <div id="proj-3" class="flex justify-center flex-col sm:w-8/12 bg-gray-900">
           <div
             class="flex overflow-x-hidden scroll-smooth snap-x w-[95vw] sm:w-auto max-w-[42rem] self-center pt-1 scrollable h-80 sm:h-[28rem] mb-1 "
-            id="proj-3">
-            <div class="big-img transition-opacity duration-400 h-full min-w-full big-active2" id="b03">
-              <img src="./public/res/reddit1.png" class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            >
+            <div class="big-img transition-opacity duration-400 h-full min-w-full big-active" id="b03">
+              <img src="./public/res/reddit1.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
             </div>
-            <div class="big-img transition-opacity duration-400 h-full min-w-full opacity-50" id="b13">
-              <img src="./public/res/reddit2.png" class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            <div class="big-img transition-opacity duration-400 h-full min-w-full" id="b13">
+              <img src="./public/res/reddit2.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
             </div>
-            <div class="big-img transition-opacity duration-400 h-full min-w-full opacity-50" id="b23">
-              <img src="./public/res/reddit3.png" class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            <div class="big-img transition-opacity duration-400 h-full min-w-full" id="b23">
+              <img src="./public/res/reddit3.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
             </div>
-            <div class="big-img transition-opacity duration-400 h-full min-w-full opacity-50" id="b33">
-              <img src="./public/res/reddit4.png" class="object-contain transition rounded h-full mx-auto -translate-y-0" />
+            <div class="big-img transition-opacity duration-400 h-full min-w-full" id="b33">
+              <img src="./public/res/reddit4.png"
+                class="object-contain transition rounded h-full mx-auto -translate-y-0" />
             </div>
           </div>
 
           <div class="content-between grid gap-1 grid-cols-4 grid-rows-1 p-2 bg-gray-900 h-20 sm:h-28">
             <div class="h-full flex">
               <img src="./public/res/reddit1.png" id="03"
-                class="h-full m-auto object-contain small-img transition-opacity duration-400 shadow-xl -translate-y-0 cursor-pointer small-active2" />
+                class="h-full m-auto object-contain small-img transition-opacity duration-400 shadow-xl -translate-y-0 cursor-pointer small-active" />
             </div>
             <div class="h-full flex">
               <img src="./public/res/reddit2.png" id="13"
@@ -254,33 +373,34 @@
             Reddit Clone
           </div>
 
-          <div class="p-1 pl-2 text-sm text-gray-400 flex flex-col h-full">
+          <div class="p-1 pl-2 text-sm text-gray-300 flex flex-col h-full">
             <div class="mb-auto">
-              A reddit clone built to practise react. Users can create communities where members can create posts, comment on posts, and reply to comments.
+              A reddit clone built to practise react. Users can create communities where members can create posts,
+              comment on posts, and reply to comments.
               <br class="mb-1" />
               Including a rating system where users upvote or downvote comments and posts.
               <br class="mb-1" />
-              File uploads powered by Backblaze CDN.<br class="mb-1" />
+              File uploads powered by Backblaze cloud storage.<br class="mb-1" />
             </div>
             <div class="text-xl font-semibold text-gray-100 mt-3">Tech-Stack</div>
             <div class="flex border-t-2 border-gray-700 py-1">
               Front-End:
-              <div class="ml-auto mr-2 text-gray-200">ReactJS</div>
+              <div class="ml-auto mr-2 text-gray-200">React</div>
             </div>
             <div class="flex border-t-2 border-gray-700 py-1 mb-3">
               Back-End:
-              <div class="ml-auto mr-2 text-gray-200">NodeJS</div>
+              <div class="ml-auto mr-2 text-gray-200">Node.js</div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="flex sm:flex-row flex-col px-2 mb-12">
+    <section class="flex sm:flex-row flex-col px-2 mb-12 fade-in-element">
       <div class="sm:w-6/12 bg-gray-950 p-2 sm:rounded-xl sm:translate-x-2 ">
         <h2 class="mb-4 text-2xl  font-bold text-center  text-violet-500">
           Contact Me
         </h2>
-        <p class="mb-8 lg:mb-16 font-light text-center  text-gray-400 text-sm sm:text-lg">
+        <p class="mb-8 lg:mb-16 font-light text-center  text-gray-300 text-sm sm:text-lg">
           Full-Stack Developer solving problems across all stages of web development.
         </p>
         <div class="flex text-gray-200">
@@ -302,17 +422,22 @@
 
       </div>
       <div class="sm:w-6/12 bg-gray-900 p-4 sm:pr-4 sm:pl-6 sm:py-4">
-        <form class="space-y-2" onSubmit="(e)=>{
-          e.preventDefault();
-        }">
+        <form class="space-y-2" onsubmit="
+          event.preventDefault();
+          const subject = document.getElementById('subject').value;
+          const message = document.getElementById('message').value;
+          
+          window.location.href = `mailto:ahmdabozed88@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+      
+        ">
           <div>
             <label for="subject" class="block mb-2 text-sm font-medium  text-gray-300">Send Me an Email</label>
             <input type="text" id="subject"
               class="block p-3 w-full text-sm   rounded-lg border  shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
-              placeholder="Email Title" />
+              placeholder="Subject" />
           </div>
           <div class="">
-            <label for="message" class="block mb-2 text-sm font-medium  text-gray-400">Body</label>
+            <label for="message" class="block mb-2 text-sm font-medium  text-gray-300">Body</label>
             <textarea id="message" rows="6"
               class="block p-2.5 w-full text-sm   rounded-lg shadow-sm border  focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500"
               placeholder="Email Body..."></textarea>
@@ -325,7 +450,9 @@
       </div>
     </section>
   </main>
-  <footer class="h-6 w-full bg-slate-900"></footer>
+  <footer class="h-6 w-full bg-slate-900 pt-1 pl-5 flex">
+    <div class="text-gray-300 text-sm ml-auto mr-5">© Ahmed Hassan. All rights reserved</div>
+  </footer>
 
 </body>
 <script src="./index.js"></script>
