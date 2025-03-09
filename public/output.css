@@ -639,6 +639,22 @@ video {
   margin-top: 2rem;
 }
 
+.ml-\[0\.5rem\] {
+  margin-left: 0.5rem;
+}
+
+.ml-\[0\.4rem\] {
+  margin-left: 0.4rem;
+}
+
+.ml-\[0\.3rem\] {
+  margin-left: 0.3rem;
+}
+
+.ml-\[0\.27rem\] {
+  margin-left: 0.27rem;
+}
+
 .block {
   display: block;
 }
@@ -673,6 +689,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-7 {
+  height: 1.75rem;
 }
 
 .w-4\/12 {
